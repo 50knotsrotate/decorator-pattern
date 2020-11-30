@@ -1,6 +1,6 @@
 import { SmallPizza } from './SmallPizza';
 import { MediumPizza } from './MediumPizza';
-import { PepperonoDecorator } from './PepperoniDecorator';
+import { PepperoniDecorator } from './PepperoniDecorator';
 import { JalapenoDecorator } from './JalapenoDecorator';
 import { ExtraCheeseDecorator } from './ExtraCheeseDecorator';
 import { LargePizza } from './LargePizza';
