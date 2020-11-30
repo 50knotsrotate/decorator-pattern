@@ -13,22 +13,22 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PepperonoDecorator = void 0;
+exports.PepperoniDecorator = void 0;
 var ToppingDecorator_1 = require("./ToppingDecorator");
-var PepperonoDecorator = /** @class */ (function (_super) {
-    __extends(PepperonoDecorator, _super);
-    function PepperonoDecorator(pizza) {
+var PepperoniDecorator = /** @class */ (function (_super) {
+    __extends(PepperoniDecorator, _super);
+    function PepperoniDecorator(pizza) {
         var _this = _super.call(this, pizza) || this;
         _this.description = ', Pepperoni';
         _this.cost = .99;
         return _this;
     }
-    PepperonoDecorator.prototype.getCost = function () {
+    PepperoniDecorator.prototype.getCost = function () {
         return this.pizza.getCost() + this.cost;
     };
-    PepperonoDecorator.prototype.getDescription = function () {
+    PepperoniDecorator.prototype.getDescription = function () {
         return this.pizza.getDescription() + this.description;
     };
-    return PepperonoDecorator;
+    return PepperoniDecorator;
 }(ToppingDecorator_1.ToppingDecorator));
-exports.PepperonoDecorator = PepperonoDecorator;
+exports.PepperoniDecorator = PepperoniDecorator;
