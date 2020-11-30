@@ -1,7 +1,7 @@
 import { Pizza } from './Pizza';
 import { ToppingDecorator } from './ToppingDecorator';
 
-export class PepperonoDecorator extends ToppingDecorator {
+export class PepperoniDecorator extends ToppingDecorator {
     description: string = ', Pepperoni';
     cost: number = .99;
 

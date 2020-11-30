@@ -8,7 +8,7 @@ var ExtraCheeseDecorator_1 = require("./ExtraCheeseDecorator");
 var LargePizza_1 = require("./LargePizza");
 // Create a small pizza with pepeproni and jalapenos
 var smallPizza = new SmallPizza_1.SmallPizza();
-smallPizza = new PepperoniDecorator_1.PepperonoDecorator(smallPizza);
+smallPizza = new PepperoniDecorator_1.PepperoniDecorator(smallPizza);
 smallPizza = new JalapenoDecorator_1.JalapenoDecorator(smallPizza);
 console.log(smallPizza.getDescription() + ' - $' + smallPizza.getCost());
 // Create a medium pizza with extra cheese
@@ -17,5 +17,5 @@ mediumPizza = new ExtraCheeseDecorator_1.ExtraCheeseDecorator(mediumPizza);
 console.log(mediumPizza.getDescription() + ' - $' + mediumPizza.getCost());
 // Create large pizza with just pepperoni
 var largePizza = new LargePizza_1.LargePizza();
-largePizza = new PepperoniDecorator_1.PepperonoDecorator(largePizza);
+largePizza = new PepperoniDecorator_1.PepperoniDecorator(largePizza);
 console.log(largePizza.getDescription() + " - $" + largePizza.getCost());
